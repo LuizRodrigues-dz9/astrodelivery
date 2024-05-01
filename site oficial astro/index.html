@@ -1,0 +1,1192 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="TODO">
+    <meta name="author" content="TODO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta property="fb:app_id" content="1321346131694700">
+
+    
+    <meta property="og:url" content="https://astrodelivery.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Astro Pizzaria Delivery">
+    <meta property="og:description" content="Uma experiência de outro planeta! Experimente.">
+    <meta property="og:image" content="https://i.postimg.cc/0jpRBR89/astro2pag.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@astropizzaria">
+    <meta property="twitter:title" content="Astro Pizzaria Delivery">
+    <meta property="twitter:description" content="Uma experiência de outro planeta! Experimente">
+    <meta property="twitter:image" content="https://i.postimg.cc/0jpRBR89/astro2pag.jpg">
+    
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/leaflet.css" crossorigin="">
+    <link rel="stylesheet" href="css/MarkerCluster.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" crossorigin="anonymous">
+
+    <title>ASTRO PIZZARIA DELIVERY - BC</title>
+    <link href="css/main.min.css" rel="stylesheet">
+    <script async="" src="js/gtm.js"></script><script src="js/vendors.min.js"></script>
+    
+
+    
+    <meta name="adopt-website-id" content="db73e122-a0ba-48e4-b026-ec77e46bd5df">
+    <script src="js/injector.js" class="adopt-injector"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TM4HG68');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body style="background-color: black;" class="d-flex flex-column h-100">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM4HG68"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+<header class="pt-2 pt-md-3 my-3 text-primary">
+    <div class="container">
+      <div class="d-flex flex-lg-wrap align-items-center justify-content-between justify-content-lg-center justify-content-lg-start">
+
+        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <a href="#" class="d-flex flex-grow-1 flex-md-grow-0 align-items-center mb-2 pe-md-4 mb-lg-0 text-dark text-decoration-none">
+          <img src="images/logo-bobs.png" class="img-fluid main-logo me-3" style="min-width: 110px;" alt="Bob's">
+        </a>
+
+        
+
+        
+
+
+
+
+<a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-purple text-white btn-lg shadow-btn me-md-2 px-4 btn-login" role="button" ">
+    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+        <div style="width: 50px; height: 50px;">
+            <img src="https://pngimg.com/d/whatsapp_PNG21.png" width="50" height="50" alt="WhatsApp">
+        </div>
+        <span class="d-none d-md-block">
+        Fale conosco
+        </span>
+    </div>
+</a>
+
+
+
+
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+<!--  <nav class="navbar d-none d-md-flex navbar-expand-md navbar-light mb-lg-4 py-0 py-md-2">
+    <div class="container">
+        <div class="bg-primary shadow w-100">
+            <div class="collapse navbar-collapse justify-content-md-center">
+                <ul class="navbar-nav align-items-md-center w-100 justify-content-evenly">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                
+                                    <svg width="26" height="26" class="me-1" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.8337 14.0833C23.8337 15.2858 22.8695 16.25 21.667 16.25H4.33366C3.75902 16.25 3.20792 16.0217 2.80159 15.6154C2.39527 15.2091 2.16699 14.658 2.16699 14.0833C2.16699 13.5087 2.39527 12.9576 2.80159 12.5513C3.20792 12.1449 3.75902 11.9167 4.33366 11.9167H14.0837L16.792 14.0833L19.5003 11.9167H21.667C22.2416 11.9167 22.7927 12.1449 23.1991 12.5513C23.6054 12.9576 23.8337 13.5087 23.8337 14.0833ZM13.0003 3.25C3.25033 3.25 3.25033 9.75 3.25033 9.75H22.7503C22.7503 9.75 22.7503 3.25 13.0003 3.25ZM3.25033 19.5C3.25033 21.2983 4.70199 22.75 6.50033 22.75H19.5003C21.2987 22.75 22.7503 21.2983 22.7503 19.5V18.4167H3.25033V19.5Z" fill="#F8F8F8"></path></svg>
+                                
+                                editar</a>
+                        </li>
+                        
+                            <li class="nav-separator d-none d-md-block"></li>
+                        
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="/cupons/">
+                                
+                                    <svg width="22" height="22" class="me-1" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.083 19.25C10.083 18.8853 9.93814 18.5356 9.68028 18.2777C9.42242 18.0199 9.07268 17.875 8.70801 17.875C8.34334 17.875 7.9936 18.0199 7.73574 18.2777C7.47787 18.5356 7.33301 18.8853 7.33301 19.25H2.74967C2.50656 19.25 2.2734 19.1534 2.10149 18.9815C1.92958 18.8096 1.83301 18.5764 1.83301 18.3333V3.66667C1.83301 3.42355 1.92958 3.19039 2.10149 3.01849C2.2734 2.84658 2.50656 2.75 2.74967 2.75H7.33301C7.33301 3.11467 7.47787 3.46441 7.73574 3.72227C7.9936 3.98013 8.34334 4.125 8.70801 4.125C9.07268 4.125 9.42242 3.98013 9.68028 3.72227C9.93814 3.46441 10.083 3.11467 10.083 2.75H19.2497C19.4928 2.75 19.726 2.84658 19.8979 3.01849C20.0698 3.19039 20.1663 3.42355 20.1663 3.66667V8.70833C19.5586 8.70833 18.9757 8.94978 18.5459 9.37955C18.1161 9.80932 17.8747 10.3922 17.8747 11C17.8747 11.6078 18.1161 12.1907 18.5459 12.6205C18.9757 13.0502 19.5586 13.2917 20.1663 13.2917V18.3333C20.1663 18.5764 20.0698 18.8096 19.8979 18.9815C19.726 19.1534 19.4928 19.25 19.2497 19.25H10.083ZM8.70801 9.625C9.07268 9.625 9.42242 9.48013 9.68028 9.22227C9.93814 8.96441 10.083 8.61467 10.083 8.25C10.083 7.88533 9.93814 7.53559 9.68028 7.27773C9.42242 7.01987 9.07268 6.875 8.70801 6.875C8.34334 6.875 7.9936 7.01987 7.73574 7.27773C7.47787 7.53559 7.33301 7.88533 7.33301 8.25C7.33301 8.61467 7.47787 8.96441 7.73574 9.22227C7.9936 9.48013 8.34334 9.625 8.70801 9.625ZM8.70801 15.125C9.07268 15.125 9.42242 14.9801 9.68028 14.7223C9.93814 14.4644 10.083 14.1147 10.083 13.75C10.083 13.3853 9.93814 13.0356 9.68028 12.7777C9.42242 12.5199 9.07268 12.375 8.70801 12.375C8.34334 12.375 7.9936 12.5199 7.73574 12.7777C7.47787 13.0356 7.33301 13.3853 7.33301 13.75C7.33301 14.1147 7.47787 14.4644 7.73574 14.7223C7.9936 14.9801 8.34334 15.125 8.70801 15.125Z" fill="white"></path></svg>
+                                
+                                editar 2</a>
+                        </li>
+                        
+                            <li class="nav-separator d-none d-md-block"></li>
+                        
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-4">
+                                
+                                    <svg width="26" height="26" class="me-1" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.5342 12.4608C23.4571 7.59135 21.8361 4.99236 19.4317 4.28244C18.9262 4.13418 18.4019 4.06012 17.8752 4.06256C17.179 4.06256 16.5727 4.23217 15.9313 4.41193C15.1584 4.62877 14.2804 4.87506 13.0002 4.87506C11.72 4.87506 10.8415 4.62928 10.0671 4.41244C9.42521 4.23217 8.81939 4.06256 8.12521 4.06256C7.58054 4.06067 7.03825 4.1345 6.51392 4.28193C4.12212 4.98881 2.5022 7.58678 1.40939 12.4577C0.234308 17.6994 0.812706 21.0088 3.03134 21.7766C3.33546 21.8838 3.65544 21.9391 3.9779 21.9401C5.49778 21.9401 6.71653 20.6741 7.54935 19.6377C8.49032 18.4646 9.59177 17.8695 13.0002 17.8695C16.0445 17.8695 17.3044 18.2823 18.3927 19.6377C19.0767 20.4898 19.7231 21.086 20.3681 21.4612C21.2258 21.9599 22.0829 22.0706 22.9152 21.7847C24.2264 21.3373 24.978 20.1546 25.1496 18.2686C25.2801 16.8224 25.079 14.9226 24.5342 12.4608ZM10.5627 12.1876H8.93771V13.8126C8.93771 14.028 8.8521 14.2347 8.69973 14.3871C8.54736 14.5395 8.34069 14.6251 8.12521 14.6251C7.90972 14.6251 7.70305 14.5395 7.55068 14.3871C7.39831 14.2347 7.31271 14.028 7.31271 13.8126V12.1876H5.68771C5.47222 12.1876 5.26556 12.102 5.11318 11.9496C4.96081 11.7972 4.87521 11.5905 4.87521 11.3751C4.87521 11.1596 4.96081 10.9529 5.11318 10.8005C5.26556 10.6482 5.47222 10.5626 5.68771 10.5626H7.31271V8.93756C7.31271 8.72207 7.39831 8.51541 7.55068 8.36303C7.70305 8.21066 7.90972 8.12506 8.12521 8.12506C8.34069 8.12506 8.54736 8.21066 8.69973 8.36303C8.8521 8.51541 8.93771 8.72207 8.93771 8.93756V10.5626H10.5627C10.7782 10.5626 10.9849 10.6482 11.1372 10.8005C11.2896 10.9529 11.3752 11.1596 11.3752 11.3751C11.3752 11.5905 11.2896 11.7972 11.1372 11.9496C10.9849 12.102 10.7782 12.1876 10.5627 12.1876ZM14.8283 12.3907C14.6275 12.3907 14.4311 12.3311 14.2641 12.2195C14.0971 12.1079 13.9669 11.9493 13.89 11.7637C13.8131 11.5781 13.793 11.3739 13.8322 11.1769C13.8714 10.9799 13.9681 10.7989 14.1102 10.6569C14.2522 10.5149 14.4332 10.4181 14.6302 10.3789C14.8272 10.3398 15.0314 10.3599 15.217 10.4367C15.4026 10.5136 15.5612 10.6438 15.6728 10.8108C15.7844 10.9778 15.844 11.1742 15.844 11.3751C15.844 11.6444 15.737 11.9027 15.5465 12.0932C15.356 12.2837 15.0977 12.3907 14.8283 12.3907ZM17.0627 14.6251C16.8617 14.6251 16.6653 14.5654 16.4982 14.4537C16.3311 14.342 16.2009 14.1832 16.1242 13.9975C16.0474 13.8118 16.0274 13.6074 16.0668 13.4104C16.1062 13.2133 16.2032 13.0323 16.3455 12.8904C16.4877 12.7484 16.669 12.6519 16.8661 12.613C17.0633 12.5741 17.2676 12.5946 17.4531 12.6718C17.6387 12.7491 17.7971 12.8797 17.9084 13.047C18.0197 13.2144 18.0788 13.411 18.0783 13.612C18.0777 13.8809 17.9704 14.1386 17.78 14.3285C17.5896 14.5184 17.3316 14.6251 17.0627 14.6251ZM17.0627 10.1563C16.8618 10.1563 16.6655 10.0967 16.4985 9.98515C16.3314 9.87355 16.2013 9.71493 16.1244 9.52935C16.0475 9.34377 16.0274 9.13956 16.0666 8.94254C16.1058 8.74553 16.2025 8.56457 16.3446 8.42253C16.4866 8.28049 16.6676 8.18376 16.8646 8.14457C17.0616 8.10539 17.2658 8.1255 17.4514 8.20237C17.6369 8.27924 17.7956 8.40941 17.9072 8.57643C18.0188 8.74345 18.0783 8.93981 18.0783 9.14068C18.0783 9.41004 17.9713 9.66837 17.7809 9.85884C17.5904 10.0493 17.3321 10.1563 17.0627 10.1563ZM19.2971 12.3907C19.0962 12.3907 18.8998 12.3311 18.7328 12.2195C18.5658 12.1079 18.4356 11.9493 18.3588 11.7637C18.2819 11.5781 18.2618 11.3739 18.301 11.1769C18.3402 10.9799 18.4369 10.7989 18.5789 10.6569C18.721 10.5149 18.9019 10.4181 19.0989 10.3789C19.296 10.3398 19.5002 10.3599 19.6857 10.4367C19.8713 10.5136 20.0299 10.6438 20.1415 10.8108C20.2531 10.9778 20.3127 11.1742 20.3127 11.3751C20.3127 11.6444 20.2057 11.9027 20.0152 12.0932C19.8248 12.2837 19.5664 12.3907 19.2971 12.3907Z" fill="white"></path></svg>
+                                
+                                editar 3</a>
+                        </li>
+                        
+                            <li class="nav-separator d-none d-md-block"></li>
+                        
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-4">
+                                
+                                    <svg width="26" height="26" class="me-1" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.44446C10.7504 1.44634 8.59295 2.33834 6.99888 3.92565C5.40481 5.51296 4.50363 7.66657 4.49219 9.91613C4.49219 13.2889 6.38441 16.1128 7.77108 18.1711L8.02385 18.5467C9.4035 20.5462 10.8835 22.4746 12.4583 24.3245L13.0072 24.9672L13.5561 24.3245C15.1306 22.4745 16.6107 20.5461 17.9905 18.5467L18.2433 18.1639C19.6227 16.1056 21.515 13.2889 21.515 9.91613C21.5035 7.66532 20.6013 5.51062 19.0057 3.9231C17.4101 2.33559 15.2508 1.44443 13 1.44446ZM13 13.7222C12.0629 13.7222 11.1469 13.4444 10.3678 12.9238C9.58867 12.4032 8.98142 11.6632 8.62283 10.7975C8.26424 9.93181 8.17041 8.9792 8.35322 8.06016C8.53603 7.14113 8.98726 6.29693 9.64985 5.63434C10.3124 4.97175 11.1566 4.52052 12.0757 4.33772C12.9947 4.15491 13.9473 4.24873 14.813 4.60732C15.6787 4.96591 16.4187 5.57317 16.9393 6.35229C17.4599 7.13141 17.7377 8.04741 17.7377 8.98446C17.7377 10.241 17.2386 11.4461 16.3501 12.3346C15.4616 13.2231 14.2565 13.7222 13 13.7222Z" fill="#F8F8F8"></path><path d="M12.9996 11.6783C14.4873 11.6783 15.6934 10.4722 15.6934 8.98442C15.6934 7.49662 14.4873 6.29053 12.9996 6.29053C11.5118 6.29053 10.3057 7.49662 10.3057 8.98442C10.3057 10.4722 11.5118 11.6783 12.9996 11.6783Z" fill="#F8F8F8"></path></svg>
+                                
+                                editar 4</a>
+                        </li>
+                        
+                           
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="overlay-bg"></div>
+<div class="mobile-nav d-flex flex-column pt-2 d-md-none shadow-lg">
+    <div class="row align-items-center px-4">
+        
+        <div class="col-2 text-right close">
+            <a>X</a>
+        </div>
+    </div>
+    <ul class="navbar-nav flex-grow-1 align-items-md-center w-100 justify-content-evenly">
+        
+            <li class="nav-item px-4">
+                <a class="nav-link" href="#">
+                    
+                        f
+                    Cardápio</a>
+            </li>
+            
+                <li class="nav-separator d-none d-md-block"></li>
+            
+        
+            <li class="nav-item px-4">
+                <a class="nav-link" href="#">
+                    
+                        
+                    EDITAR 01 RODRIGÃO</a>
+            </li>
+            
+                <li class="nav-separator d-none d-md-block"></li>
+            
+        
+            <li class="nav-item px-4">
+                <a class="nav-link" href="#">
+                    
+                        
+                    EDITAR 02 RODRIGÃO</a>
+            </li>
+            
+                <li class="nav-separator d-none d-md-block"></li>
+            
+        
+            <li class="nav-item px-4">
+                <a class="nav-link" href="#">
+                    
+                        
+                    EDITAR 03 RODRIGÃO</a>
+            </li>
+            
+                <li class="nav-separator d-none d-md-block"></li>
+            
+        
+           
+        
+    </ul>
+
+
+  </div>  -->
+
+
+  <section  class="bg-white pb-5" id="banners"  style="background-color: black;">
+    <div class="container py-4" style="background-color: black;">
+        <div class="row">
+            
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <a>
+                        <img src="images/018_bobs_colherudos_pecas_digital_banner_540x540.jpg__540x540_q85_crop_subsampling-2_upscale.jpg" alt="Colherudos">
+                    </a>
+                </div>
+            
+                <h1 style="text-align: center; color: aliceblue;">Tenha uma experiência de outra dimensão ao saborear uma saborosa pizza da <span style="color: yellow;">Astro Pizzaria Delivery!</span> </h1>
+                <a style="text-align: center; color: aliceblue;"> Entregamos para toda a cidade de Balneário Camboriú com <span style="color:yellow">FRETE GRÁTIS!</span>  Garanta uma experiência gastronômica de alto nível, no conforto de sua casa e sem gastar muito! <br> vale cada centavo e <span style="color: yellow;">quem prova, APROVA! </span></a>
+        </div>
+    </div>
+</section>
+
+
+
+    
+    <h2  style="text-align: center; font-size:60px;" class="my-4" id="cardp">Nosso cardápio</h2>
+    <a style="text-align: center; color: yellow;">Pizzas Salgadas</a>
+    <div class="menu-releases-slider px-0">
+
+        
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Calabresa</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:calabresa, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Frango com catupiry</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:Frango desfiado, catupiry cremoso, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery"">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Frango cheddar</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:Frango desfiado, cheddar cremoso, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery"">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Bacon milho</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:Bacon, milho, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Bacon <br>crocante</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:Bacon, batata palha, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Bacon catupiry</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">com ingredientes frescos e selecionados:Bacon, catupiry, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Espacial</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;"> que trás uma explosão de sabor com ingredientes frescos e selecionados:  Frango desfiado, bacon, batata palha,  catupiry, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery"">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Lombo catupiry</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">  com ingredientes frescos e selecionados: Lombo,  catupiry, queijo, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Quatro queijos</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;"> com ingredientes frescos e selecionados: Queijo mussarela, parmesão, provolone, gorgonzola, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Mussarela</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;"> com ingredientes frescos e selecionados: Queijo mussarela, fatias de tomate, orégano, e molho de tomate </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                               
+                              
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+                
+            </div>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+       
+        
+       
+        
+
+    </div>
+
+
+
+    <a style="text-align: center; color: yellow;">Pizzas Doces</a>
+    <div class="menu-releases-slider px-0">
+
+        
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande Brigadeiro</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">ideal para sobremesa: Chocolate tradicional ao leite, granulado e creme de leite </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande chocolate preto</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">ideal para sobremesa: Chocolate preto tradicional ao leite,  e  creme de leite </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande paçoca</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">ideal para sobremesa: Chocolate preto ao leite, paçoca e creme de leite </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande bis</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">ideal para sobremesa: Chocolate preto ao leite, bis e de creme de leite </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-releases-slider--item">
+            <div>
+                <!-- IF BADGE -->
+                <div class="menu-badge">R$49,90</div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="">
+                        
+                            <img src="https://i.postimg.cc/T3yNKPG4/Default-create-a-drawing-of-an-astronaut-with-a-pizza-in-his-h-2.jpg" alt="Baconzudo Cheddar" class="mx-auto">
+                        
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h3 class="mt-3 mt-md-0" style="font-size: 30px;">Pizza grande confete</h3>
+                        <p>Pizza grande <span style="color: rgb(255, 0, 0);font-weight: bold;">ideal para sobremesa: Chocolate preto ao leite, confete e de creme de leite </span> <br>Peça já a sua e prove uma experiencia de outra dimensão! Isso você só encontra aqui na Astro Pizzaria!</p>
+                        <div class="row">
+                            <div class="col-3 col-md-2">
+                                
+                                    
+                                
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.94488 5.63447C7.94488 4.82408 8.2668 4.04689 8.83983 3.47386C9.41286 2.90084 10.19 2.57891 11.0004 2.57891C11.8108 2.57891 12.588 2.90084 13.161 3.47386C13.7341 4.04689 14.056 4.82408 14.056 5.63447V7.33336H15.2782V5.63447C15.2782 5.0727 15.1676 4.51644 14.9526 3.99743C14.7376 3.47843 14.4225 3.00685 14.0253 2.60962C13.628 2.21239 13.1565 1.89729 12.6375 1.68232C12.1185 1.46734 11.5622 1.35669 11.0004 1.35669C10.4387 1.35669 9.8824 1.46734 9.3634 1.68232C8.84439 1.89729 8.37282 2.21239 7.97559 2.60962C7.57836 3.00685 7.26326 3.47843 7.04828 3.99743C6.8333 4.51644 6.72266 5.0727 6.72266 5.63447V7.33336H7.94488V5.63447Z" fill="white"></path>
+                                        <path d="M15.2777 7.33337V9.22782C15.2777 9.3899 15.2133 9.54533 15.0987 9.65994C14.9841 9.77454 14.8286 9.83893 14.6666 9.83893C14.5045 9.83893 14.349 9.77454 14.2344 9.65994C14.1198 9.54533 14.0554 9.3899 14.0554 9.22782V7.33337H7.94434V9.22782C7.94434 9.3899 7.87995 9.54533 7.76535 9.65994C7.65074 9.77454 7.4953 9.83893 7.33322 9.83893C7.17115 9.83893 7.01571 9.77454 6.9011 9.65994C6.7865 9.54533 6.72211 9.3899 6.72211 9.22782V7.33337H2.44434V19.5556C2.44434 19.8797 2.57311 20.1906 2.80232 20.4198C3.03153 20.649 3.3424 20.7778 3.66656 20.7778H18.3332C18.6574 20.7778 18.9683 20.649 19.1975 20.4198C19.4267 20.1906 19.5554 19.8797 19.5554 19.5556V7.33337H15.2777Z" fill="white"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a style="background-color: red; color: rgb(238, 255, 0); " href="https://api.whatsapp.com/send?phone=5547996630557&text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20uma%20pizza%20Astro%20Delivery" class="btn btn-lg btn-light shadow-btn px-4">
+                                    Quero pedir agora minha Astro Pizza
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+       
+        
+
+    </div>
+    <a style="color: aliceblue; text-align: center; font-size: 15px;">* Valores estão sujeitos á alterações. Verifique o valor e a disponibilidade. Nossa Equipe esta á disposição para tirar qualquer dúvida referente aos nossos serviços</a>
+       
+
+</div>
+
+
+
+<section class="bg-white pb-5" id="banners">
+    <div class="container py-4">
+        <div class="row">
+            
+                
+            
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <a href="/play/lancamentos/baconzudos-do-bobs">
+                        <img src="images/039_bobs_baconzudos_pecas_digital_540x540_v2.png__540x540_crop_subsampling-2_upscale.png" alt="Baconzudos">
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- EDITAR CONTEUDO ABAIXO -->
+<!-- <section class="bg-white pt-5 pb-5" id="interna-content">
+    <div class="container">
+        <h2>Nossos irresistíveis produtos</h2>
+        <div class="all-products my-5">
+            <div class="row g-4">
+
+                
+                <div class="all-products--item col-12 col-md-6">
+                    <div class="p-4 shadow-card-secondary d-flex flex-column">
+                        <div class="col text-center flex-grow-1">
+                            <a href="/cardapio/sanduiches">
+                                <img src="images/032_bobs_site_atualizacao_banners_sanduiches_destaque_cardapio_bobs.png__460x230_subsampling-2.png" class="img-fluid" alt="Sanduíches">
+                            </a>
+                        </div>
+                        <div class="col py-3 flex-grow-1">
+                            <h3>Sanduíches</h3>
+                            <p>Nossos clássicos e monstros. Para matar a sua fome, aquele sanduíche delicioso feito com muito molho, do jeito que só o Bob's tem. Que tal escolher já qual você vai devorar?</p>
+                        </div>
+                        <div class="col d-grid flex-grow-0">
+                            <a href="/cardapio/sanduiches" class="btn btn-primary shadow-btn btn-block rounded-3">
+                                + Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="all-products--item col-12 col-md-6">
+                    <div class="p-4 shadow-card-secondary d-flex flex-column">
+                        <div class="col text-center flex-grow-1">
+                            <a href="/cardapio/acompanhamentos">
+                                <img src="images/033_bobs_site_atualizacao_banners_acompanhamentos_destaque_cardapio_460x220.png__460x230_subsampling-2.png" class="img-fluid" alt="Acompanhamentos">
+                            </a>
+                        </div>
+                        <div class="col py-3 flex-grow-1">
+                            <h3>Acompanhamentos</h3>
+                            <p>Para deixar seu momento Bob's ainda melhor, nossos acompanhamentos sempre quentinhos e crocantes. Ahhh... e uma dica: ficam ainda melhores com os nossos molhos.</p>
+                        </div>
+                        <div class="col d-grid flex-grow-0">
+                            <a href="/cardapio/acompanhamentos" class="btn btn-primary shadow-btn btn-block rounded-3">
+                                + Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="all-products--item col-12 col-md-6">
+                    <div class="p-4 shadow-card-secondary d-flex flex-column">
+                        <div class="col text-center flex-grow-1">
+                            <a href="/cardapio/sobremesas">
+                                <img src="images/031_bobs_site_atualicao_banners_milk_shakes_460x220px.png__460x230_subsampling-2.png" class="img-fluid" alt="Sobremesas">
+                            </a>
+                        </div>
+                        <div class="col py-3 flex-grow-1">
+                            <h3>Sobremesas</h3>
+                            <p>Para você que não resiste �&nbsp;s nossas deliciosas sobremesas, as melhores combinações em forma de prazeres gelados. Vai de shake ou sorvete?</p>
+                        </div>
+                        <div class="col d-grid flex-grow-0">
+                            <a href="/cardapio/sobremesas" class="btn btn-primary shadow-btn btn-block rounded-3">
+                                + Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="all-products--item col-12 col-md-6">
+                    <div class="p-4 shadow-card-secondary d-flex flex-column">
+                        <div class="col text-center flex-grow-1">
+                            <a href="/cardapio/saladas">
+                                <img src="images/043_bobs_site_atualizacao_destaque_460x220_v2.png__460x230_subsampling-2.png" class="img-fluid" alt="Saladas">
+                            </a>
+                        </div>
+                        <div class="col py-3 flex-grow-1">
+                            <h3>Saladas</h3>
+                            <p>Para você que quer pegar leve, nossas deliciosas proteínas acompanhadas de alface e tomates fresquinhos. Escolha a sua proteína (ou não) e aproveite.</p>
+                        </div>
+                        <div class="col d-grid flex-grow-0">
+                            <a href="/cardapio/saladas" class="btn btn-primary shadow-btn btn-block rounded-3">
+                                + Veja mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white pb-5">
+    <div class="container pb-2">
+        
+            <h2 class="title sub">Novidades do Bob's</h2>
+            <p class="py-2 pt-0">Fique por dentro de tudo que rola por aqui.</p>
+        
+        <div class="row gy-3 py-4 news-card">
+            
+                
+
+<div class="col-xs-12 col-md-6 col-lg-4 news-card--item">
+    <div class="d-flex flex-column shadow-card">
+        <h4 class="text-center py-2">Bob's Play</h4>
+        
+            <img src="images/045_bobs_play_atualizacao_site_destaques_320x230_4.jpg__320x230_q85_crop_subsampling-2_upscale.jpg" class="img-fluid" alt="Bob's Play">
+        
+        <p class="pt-3">É hora da família toda curtir e se divertir com o Bob's Play.</p>
+        
+            <a href="/play/lancamentos/bobs-play" class="btn btn-light btn-lg btn-block shadow-btn mt-auto" role="button">Veja Mais</a>
+        
+    </div>
+</div>
+
+            
+                
+
+<div class="col-xs-12 col-md-6 col-lg-4 news-card--item">
+    <div class="d-flex flex-column shadow-card">
+        <h4 class="text-center py-2">Baconzudos do Bob's</h4>
+        
+            <img src="images/039_bobs_baconzudos_pecas_digital_320x230_v2.jpg__320x230_q85_crop_subsampling-2_upscale.jpg" class="img-fluid" alt="Baconzudos do Bob's">
+        
+        <p class="pt-3">As novidades "Baconzudo Cheddar" e "Baconzudo Salad" chegam �&nbsp;s nossas unidades com o dobro de bacon.</p>
+        
+            <a href="/play/lancamentos/baconzudos-do-bobs" class="btn btn-light btn-lg btn-block shadow-btn mt-auto" role="button">Veja Mais</a>
+        
+    </div>
+</div>
+
+            
+                
+
+<div class="col-xs-12 col-md-6 col-lg-4 news-card--item">
+    <div class="d-flex flex-column shadow-card">
+        <h4 class="text-center py-2">Colherudos do Bob's</h4>
+        
+            <img src="images/018_bobs_colherudos_pecas_digital_banner_320x230.jpg__320x230_q85_crop_subsampling-2_upscale.jpg" class="img-fluid" alt="Colherudos do Bob's">
+        
+        <p class="pt-3">Bob’s turbina sobremesas com novos sabores e ainda mais recheio para comer de colher.</p>
+        
+            <a href="/play/lancamentos/colherudos-do-bobs" class="btn btn-light btn-lg btn-block shadow-btn mt-auto" role="button">Veja Mais</a>
+        
+    </div>
+</div>
+
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    
+
+    
+
+
+<section class="bg-white pb-5" id="banners">
+    <div class="container py-4">
+        <div class="row">
+            
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <a href="/play/lancamentos/colherudos-do-bobs">
+                        <img src="images/018_bobs_colherudos_pecas_digital_banner_540x540.jpg__540x540_q85_crop_subsampling-2_upscale.jpg" alt="Colherudos">
+                    </a>
+                </div>
+            
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <a href="/play/lancamentos/baconzudos-do-bobs">
+                        <img src="images/039_bobs_baconzudos_pecas_digital_540x540_v2.png__540x540_crop_subsampling-2_upscale.png" alt="Baconzudos">
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bg-divider" style="background-color:  black;"></div>
+
+
+
+
+<footer class="bg-primary py-2 py-md-5 mt-auto text-white" style="text-align: center;">
+    <div class="container p-5 p-md-2">
+        <div class="row align-items-start justify-content-between flex-column flex-sm-row">
+            <div class="col-12 d-flex justify-content-center justify-content-lg-start col-lg-2" style="text-align: center;">
+                <img style="max-width: 40%;
+                height: auto; text-align: center; border-left: 45%;" src="images/logo-bobs-footer.png" alt="">
+            </div>
+            
+                
+              <h4 style="text-align: center;">SUA EXPERIÊNCIA EM <span style="color: yellow;">BALNEÁRIO CAMBORIÚ</span>  FICA AINDA MELHOR COM UMA PIZZA DA <span style="color: yellow;"> ASTRO PIZZARIA!</span></h4>  
+                <div style="text-align: center;" class="my-3">
+                    <a href="https://www.instagram.com/astropizzaria.bc/" target="_blank" class="me-2"><img src="images/instagram.png" alt=""></a>
+                     
+                </div>
+                <a style="text-align: center;">Nos acompanhe no Instagram e fique por dentro das nossas ofertas!</a>
+            </div>
+        </div>
+        <div class="row mt-5 footnote">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113752.78878473229!2d-48.69938611636763!3d-27.005677474668786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b65cc2e52aad%3A0x2dc004f5e6adebc4!2zQmFsbmXDoXJpbyBDYW1ib3Jpw7osIFND!5e0!3m2!1spt-PT!2sbr!4v1714152195323!5m2!1spt-PT!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div  class="col-12 col-lg-9" style="text-align: center;">
+                <p>As imagens expostas neste site são meramente ilustrativas.</p>
+                
+                <p class="fw-bold mb-0">2024 - Astro Pizzaria Delivery - Balneário Camboriú <br> Todos os direitos reservados</p>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<div class="disclaimer d-none">
+    <div class="container">
+        <div class="d_title">Olá! Bora pedir aquela pizza?</div>
+        <p>Seja bem vindo á nossa página oficial<br>
+        Nosso horário de funcionamente é das 18h até as 23h.</p>
+        <span class="btn d-btn">OK, ENTENDI!</span>
+    </div>
+</div>
+
+<script>
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return false;
+}
+
+$(function() {
+    var readed = getCookie('bobs_disclaimer');
+    readed = true;
+    if (!readed) {
+        $('.disclaimer').removeClass('d-none');
+    }
+    $('.d-btn').click(function() {
+        document.cookie = 'bobs_disclaimer=true;path=/';
+        $('.disclaimer').addClass('d-none');
+    });
+})
+</script>
+
+
+
+<script src="js/main.min.js"></script>
+
+
+
+
+
+
+
+</body></html>
